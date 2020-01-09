@@ -80,7 +80,7 @@ public class DataLoader implements CommandLineRunner {
         owner2.setTelephone("123123123");
 
         Pet fionasCat = new Pet();
-        fionasCat.setPetType(saveDogPetType);
+        fionasCat.setPetType(saveCatPetType);
         fionasCat.setOwner(owner2);
         fionasCat.setBirthDate(LocalDate.now());
         fionasCat.setName("Just Cat");
